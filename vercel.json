@@ -4,12 +4,10 @@
     {
       "src": "package.json",
       "use": "@vercel/node"
-    }
-  ],
-  "command": {
-    "include": [
-      "**/*"
-    ],
-    "installCommand": "npm install --force"
-  }
+    },
+    {
+        "installCommand": "npm install --force"
+      }
+
+  ]
 }

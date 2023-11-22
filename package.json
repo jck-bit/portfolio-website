@@ -4,9 +4,9 @@
   "description": "Portfolio website for Jack",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
+    "build": "next build --force",
     "start": "next start",
-    "preinstall": "npm install --force",
+    "install": "npm install --force",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
